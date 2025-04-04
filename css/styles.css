@@ -603,7 +603,7 @@ button {
 }
 
 .backdrop:not(.is-open) .modal {
-  transform: translate(-50%, -50%) scale(2);
+  transform: translate(-50%, -50%) scale(0.5);
 }
 
 .modal-close-btn {
@@ -723,9 +723,6 @@ button {
 }
 
 .modal-label-checkbox {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -761,7 +758,6 @@ button {
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: #4d5ae5;
-  margin-left: 3px;
 }
 
 .modal-btn {
